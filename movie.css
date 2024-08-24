@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    overflow: auto;
+    padding: 0px 20px;
+}
+.container div{
+    width: 150px;
+    height: 200px;
+    background-color: pink;
+    margin: 10px 20px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    transition: all 0.5s;
+
+    
+}
+
+.one,
+.two,
+.three,
+.four,
+.five{
+    background-image: url(./img/one.jpg);
+    
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover{
+    width: 500px;
+    background-image: url(./img/one\(1\).jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.six,
+.seven,
+.eight{
+    background-image: url(./img/one\(1.5\).jpg);
+}
+
+.six:hover,
+.seven:hover,
+.eight:hover{
+    width: 600px;
+    background-image: url(./img/one\(2\).jpg);
+    background-position: center;
+    background-size: cover;
+}
